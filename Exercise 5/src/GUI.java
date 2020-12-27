@@ -70,9 +70,9 @@ public class GUI {
 					ans = num1+num2;
 					textFieldAns.setText(Integer.toString(ans));
 					
-			}catch(Exception e){
+				}catch(Exception e){
 				JOptionPane.showMessageDialog(null, "Please enter a valid number");
-			}
+				}
 	
 			}
 		});
@@ -90,9 +90,9 @@ public class GUI {
 					ans = num1*num2;
 					textFieldAns.setText(Integer.toString(ans));
 					
-			}catch(Exception e1){
+				}catch(Exception e1){
 				JOptionPane.showMessageDialog(null, "Please enter a valid number");
-			}
+				}
 				
 			}
 		});
@@ -110,9 +110,9 @@ public class GUI {
 					ans = num1-num2;
 					textFieldAns.setText(Integer.toString(ans));
 					
-			}catch(Exception e2){
+				}catch(Exception e2){
 				JOptionPane.showMessageDialog(null, "Please enter a valid number");
-			}
+				}
 				
 			}
 		});
@@ -130,9 +130,9 @@ public class GUI {
 					ans = num1/num2;
 					textFieldAns.setText(Integer.toString(ans));
 					
-			}catch(Exception e3){
+				}catch(Exception e3){
 				JOptionPane.showMessageDialog(null, "Please enter a valid number");
-			}
+				}
 				
 			}
 		});
